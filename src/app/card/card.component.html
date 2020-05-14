@@ -1,0 +1,32 @@
+<!--
+<div class="card">
+  <h2 [ngStyle]="{
+  color: title.length<5?'black': 'red'
+  }"> {{title}} </h2>
+  <p class="text" [ngClass]="{
+  blue: textColor == 'blue',
+  red: textColor == 'red',
+  green: textColor == 'green'
+
+  }" > {{text}} </p>
+
+  <div class = "buttons">
+    <button (click)="textColor = 'blue'">Set blue</button>
+    <button (click)="textColor = 'red'">Set red</button>
+    <button (click)="textColor = 'green'">Set green</button>
+  </div>
+
+
+  <div class = "buttons">
+    <button (click)="changeTitle()">Change title</button>
+    <button (click)="title = 'New title for block'">Change title2</button>
+  </div>
+&lt;!&ndash;  <div>
+    <input type="text" #myInput (input)="inputhandler(myInput.value)" [value] = "title">
+  </div>&ndash;&gt;
+  <div>
+    <input type="text" [(ngModel)]="title" >
+  </div>
+
+</div>
+-->
